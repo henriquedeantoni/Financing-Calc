@@ -1,10 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import { NavLink } from '../../atoms/NavLink/NavLink';
-
-const NavLinksWrapper = styled.div`
-  display: flex;
-`;
+import { NavLink } from '../../atoms/NavLink/NavLink.tsx';
+import { NavLinksWrapper } from './NavigationLinks.Styes.ts';
 
 export const NavigationLinks = () => (
   <NavLinksWrapper>
