@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
 import { NavLink } from '../../atoms/NavLink/NavLink.tsx';
 import { NavLinksWrapper } from './NavigationLinks.Styes.ts';
 
